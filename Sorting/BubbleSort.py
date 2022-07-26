@@ -9,9 +9,9 @@ def BubbleSort(list1):
     print(list1)
 
 
-list1 = []
+list2 = []
 for i in range(6):
     b=int(input("Enter the number: "))
-    list1.append(b)
+    list2.append(b)
 
-BubbleSort(list1)
+BubbleSort(list2)
