@@ -1,6 +1,3 @@
-from unittest import result
-
-
 def BinarySearch(list1, low, high, x):
     if high >= low:
         mid = (high + low) // 2
@@ -28,3 +25,5 @@ if(result == -1):
 else:
     print("Element found at index", result)
     print("Element is", list1[result])
+
+    
