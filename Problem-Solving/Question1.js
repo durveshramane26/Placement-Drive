@@ -2,7 +2,7 @@
 
 
 
-let reverseString = (string) => {
+const reverseString = (string) => {
     let newString = "";
     let newWord = "";
     let words = string.split(" ");
@@ -21,5 +21,15 @@ let reverseString = (string) => {
     
 }
 
+// const RevString = string => {
+//     const arr = string.split(" ");
+//     const revArr = arr.map(word => {
+//         return word.split("").reverse().join("");
+//     })
+//     return revArr.join(" ");
+// }
+
 string = "Welcome to this Javascript Guide"
 reverseString(string)
+
+// console.log(RevString(string));
