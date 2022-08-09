@@ -1,5 +1,6 @@
 //count all the triplets such that sum of two elements equals the third element.
 
+
 const triplets = (arr) => {
     let count = 0;
     arr.sort();
