@@ -8,12 +8,14 @@ const isAnagram = (str1, str2) => {
     let string2 = str2.split('').sort().join('');
     console.log(string1)
     console.log(string2)
-    if (str1 === str2) {
-        return true;
+    if (string1 === string2) {
+        return true;   
     }
-    else {
-        return false;
-    }
+
+    return false;
+
+
+    
 
 
 }
